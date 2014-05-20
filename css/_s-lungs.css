@@ -1,0 +1,48 @@
+.s-lungs {
+    margin-top: 20px;
+    position: relative;
+}
+
+    .s-lungs__item {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 293px;
+    }
+
+        .s-lungs__item:first-child {
+            margin-left: 70px;
+        }
+
+        .s-lungs__item__image {
+
+        }
+
+            .s-lungs__item__image__file {
+                width: 133px;
+                height: 127px;
+            }
+
+    .s-lungs__choice {
+
+    }
+
+        .s-lungs__choice__text {
+            font-size: 20px;
+            line-height: 22px;
+            color: #000;
+            position: absolute;
+            top: 56px;
+            left: 285px;
+        }
+
+        .s-lungs__choice__left {
+            position: absolute;
+            top: 65px;
+            left: 229px;
+        }
+
+        .s-lungs__choice__right {
+            position: absolute;
+            top: 65px;
+            left: 439px;
+        }

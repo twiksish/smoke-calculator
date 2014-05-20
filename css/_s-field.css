@@ -36,9 +36,13 @@
     }
 
 
-    .field__input::-webkit-input-placeholder { color: #b3b3b3; }
-    .field__input::-moz-placeholder { color: #b3b3b3; }
-    .field__input:-ms-input-placeholder { color: #b3b3b3; }
+    .s-field__input::-webkit-input-placeholder { color: #b3b3b3; }
+    .s-field__input::-moz-placeholder { color: #b3b3b3; }
+    .s-field__input:-ms-input-placeholder { color: #b3b3b3; }
+
+    .s-field__input_black::-webkit-input-placeholder { color: #000; }
+    .s-field__input_black::-moz-placeholder { color: #000; }
+    .s-field__input_black:-ms-input-placeholder { color: #000; }
 
     .field__input:hover::-webkit-input-placeholder { color: #7e7e7e; }
     .field__input:hover::-moz-placeholder { color: #7e7e7e; }
