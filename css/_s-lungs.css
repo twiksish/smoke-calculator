@@ -14,13 +14,9 @@
         }
 
         .s-lungs__item__image {
-
+            width: 133px;
+            height: 127px;
         }
-
-            .s-lungs__item__image__file {
-                width: 133px;
-                height: 127px;
-            }
 
     .s-lungs__choice {
 

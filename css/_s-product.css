@@ -41,19 +41,17 @@
             }
 
     .s-product__choice {
-
+        position: absolute;
+        top: 101px;
+        left: 136px;
     }
 
         .s-product__choice__text {
-            position: absolute;
-            top: 99px;
-            left: 137px;
+            text-align: center;
         }
 
         .s-product__choice__icon {
-            position: absolute;
-            top: 126px;
-            left: 135px;
+            margin-top: 7px;
         }
 
     .s-product__separator {
