@@ -25,11 +25,14 @@
         background: #f6f6f6;
     }
 
-    .s-field_small {
+    .s-field__input_small {
         border-radius: 0;
-        height: 29px;
+        height: 25px;
         text-align: center;
         color: #000;
+        width: 47px;
+        border: 1px solid #d1d1d1;
+        background: #f6f6f6;
     }
 
 

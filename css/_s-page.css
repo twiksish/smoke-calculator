@@ -1,0 +1,67 @@
+.s-page {
+
+}
+    .s-page__title {
+
+    }
+
+    .s-page__separator {
+        border-top: 2px dotted #aeaeae;
+        margin-top: 15px;
+    }
+
+    .s-page__compare {
+        margin-top: 15px;
+    }
+
+        .s-page__compare__left {
+            display: inline-block;
+            vertical-align: top;
+            width: 301px;
+            background: #fcfbfb;
+            border-radius: 10px;
+            border: 1px solid #e7e7e7;
+            padding: 0 15px;
+            overflow: hidden;
+        }
+
+            .s-page__compare__left__calc {
+
+            }
+
+            .s-page__compare__left__table {
+                margin: 25px -15px 0;
+            }
+
+        .s-page__compare__right {
+            display: inline-block;
+            vertical-align: top;
+            width: 301px;
+            margin-left: 15px;
+            background: #fcfbfb;
+            border-radius: 10px;
+            border: 1px solid #e7e7e7;
+            padding: 0 15px;
+            overflow: hidden;
+        }
+
+            .s-page__compare__right__product {
+
+            }
+
+            .s-page__compare__right__table {
+                margin: 25px -15px 0;
+            }
+
+        .s-page__compare__button {
+            width: 458px;
+            margin: 24px auto;
+        }
+
+    .s-page__lungs {
+
+    }
+
+    .s-page__choice {
+
+    }

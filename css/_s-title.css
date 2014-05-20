@@ -1,0 +1,24 @@
+.s-title {
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 32px;
+    color: #3479ee;
+}
+
+    .s-title__center {
+        text-align: center;
+    }
+
+    .s-title__left {
+        position: absolute;
+        top: 34px;
+        left: 149px;
+    }
+
+    .s-title__right {
+        position: absolute;
+        top: 34px;
+        left: 552px;
+    }
+

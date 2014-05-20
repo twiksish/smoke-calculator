@@ -1,0 +1,62 @@
+.s-table {
+    background: #f6f6f6;
+
+    /*border-collapse: separate; // to separate cells by free space (but here goes extra pixel between thead and tbody - can be removed by removing this tags)*/
+    /*border-spacing: 1px;       // to separate cells by free space (but here goes extra pixel between thead and tbody - can be removed by removing this tags)*/
+
+}
+
+    .s-table__head {
+        background: #fcfbfb;
+        font-size: 14px;
+        line-height: 16px;
+    }
+        .s-table__head__row {
+
+        }
+            .s-table__head__row__cell {
+                padding: 5px 10px 10px;
+                text-align: right;
+            }
+
+            .s-table__head__row__cell_center {
+                text-align: center
+            }
+
+            .s-table__head__row__cell_blue {
+                color: #3479ee;
+            }
+
+    .s-table__body {
+        font-size: 16px;
+        line-height: 18px;
+    }
+        .s-table__body__row {
+
+        }
+            .s-table__body__row__cell {
+                padding: 13px 33px 10px 20px;
+                border-bottom: 3px solid #fff;
+                border-right: 3px solid #fff;
+
+            }
+
+                .s-table__body__row__cell_center {
+                    text-align: center;
+                }
+
+                .s-table__body__row__cell_blue {
+                    color: #3479ee;
+                }
+
+                .s-table__body__row__cell_red {
+                    color: #fe0000;
+                    font-weight: bold;
+                }
+
+        .s-table__body__row:last-child .s-table__body__row__cell {
+            border-bottom: none;
+        }
+
+            .s-table__body__row__cell:last-child {
+                border-right: none;

@@ -15,7 +15,7 @@
     .s-counter__right {
         display: inline-block;
         vertical-align: top;
-        margin-left: 33px;
+        margin-left: 21px;
     }
 
         .s-counter__right__minus {
@@ -32,7 +32,9 @@
         .s-counter__right__field {
             display: inline-block;
             vertical-align: top;
-            width: 47px;
+            width: 51px;
+            margin-left: 9px;
+            margin-right: 8px;
         }
 
         .s-counter__right__plus {
@@ -44,4 +46,8 @@
             background: #ababab;
             text-align: center;
             color: #fff;
+        }
+
+        .s-counter__right__plus__link {
+            display: block;
         }

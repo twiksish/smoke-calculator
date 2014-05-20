@@ -1,0 +1,28 @@
+.s-icon {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.s-icon_drop {
+    width: 18px;
+    height: 28px;
+    background: url(../images/icon_drop.png);
+}
+
+.s-icon_left-arrow {
+    width: 38px;
+    height: 9px;
+    background: url(../images/icon_left_arrow.png);
+}
+
+.s-icon_right-arrow {
+    width: 37px;
+    height: 9px;
+    background: url(../images/icon_right_arrow.png);
+}
+
+.s-icon_double-arrow {
+    width: 32px;
+    height: 9px;
+    background: url(../images/icon_double_arrow.png);
+}

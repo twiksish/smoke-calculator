@@ -21,7 +21,8 @@
     cursor: pointer;
 }
 
-.s-button:hover {
-    background: #008ed2;
-    color: #eee;
-}
+    .s-button_blue {
+        background: #3479ee;
+    }
+
+
