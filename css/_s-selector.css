@@ -1,0 +1,12 @@
+.s-selector {
+
+}
+
+    .s-selector__row {
+        margin-top: 12px;
+    }
+
+    .s-selector__row:first-child {
+        margin-top: 0;
+    }
+

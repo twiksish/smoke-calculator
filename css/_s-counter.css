@@ -1,0 +1,47 @@
+.s-counter {
+    margin: 0 auto;
+    width: 243px;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000;
+}
+
+    .s-counter__left {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5px;
+    }
+
+    .s-counter__right {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 33px;
+    }
+
+        .s-counter__right__minus {
+            display: inline-block;
+            vertical-align: top;
+            width: 28px;
+            height: 27px;
+            line-height: 27px;
+            background: #ababab;
+            text-align: center;
+            color: #fff;
+        }
+
+        .s-counter__right__field {
+            display: inline-block;
+            vertical-align: top;
+            width: 47px;
+        }
+
+        .s-counter__right__plus {
+            display: inline-block;
+            vertical-align: top;
+            width: 28px;
+            height: 27px;
+            line-height: 27px;
+            background: #ababab;
+            text-align: center;
+            color: #fff;
+        }

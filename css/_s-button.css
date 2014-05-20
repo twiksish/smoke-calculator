@@ -1,4 +1,4 @@
-.button {
+.s-button {
     outline: none;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -7,22 +7,21 @@
     vertical-align: top;
     white-space: nowrap;
     width: 100%;
-    height: 24px;
-    line-height: 24px;
+    height: 50px;
+    line-height: 49px;
     padding: 0 8px;
-    border: 1px solid #0674bc;
-    background: #008ed2;
-    background: -webkit-linear-gradient(#00a7e1, #0095da 50%, #008cd2 51%, #0075c6);
-    background:         linear-gradient(#00a7e1, #0095da 50%, #008cd2 51%, #0075c6);
+    background: #ff3900;
+    background: -webkit-linear-gradient(#ff7800, #ff6100, #ff2500, #ff0100);
+    background:         linear-gradient(#ff7800, #ff6100, #ff2500, #ff0100);
     border-radius: 4px;
     text-align: center;
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,.25);
-    font-size: 12px;
+    font-size: 17px;
     color: #fff;
+    text-transform: uppercase;
     cursor: pointer;
 }
 
-.button:hover {
+.s-button:hover {
     background: #008ed2;
     color: #eee;
 }

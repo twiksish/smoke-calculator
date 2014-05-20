@@ -1,0 +1,29 @@
+.s-smoke-calc {
+
+}
+
+    .s-smoke-calc__title {
+        font-size: 30px;
+        line-height: 32px;
+        color: #3479ee;
+        text-align: center;
+    }
+
+    .s-smoke-calc__separator {
+        border-top: 2px dotted #aeaeae;
+        margin-top: 15px;
+    }
+
+    .s-smoke-calc__selector {
+        width: 243px;
+        margin: 17px auto 0;
+    }
+
+    .s-smoke-calc__counter {
+        margin-top: 21px;
+    }
+
+    .s-smoke-calc__button {
+        margin: 21px auto 0;
+        width: 241px;
+    }
