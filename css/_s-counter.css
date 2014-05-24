@@ -4,6 +4,7 @@
     font-size: 15px;
     line-height: 17px;
     color: #000;
+    white-space: nowrap;
 }
 
     .s-counter__left {
@@ -15,39 +16,52 @@
     .s-counter__right {
         display: inline-block;
         vertical-align: top;
-        margin-left: 21px;
+        margin-left: 20px;
     }
 
-        .s-counter__right__minus {
-            display: inline-block;
-            vertical-align: top;
-            width: 28px;
-            height: 27px;
-            line-height: 27px;
-            background: #ababab;
-            text-align: center;
-            color: #fff;
+        .s-counter__right__wrapper {
+            position: relative;
         }
 
-        .s-counter__right__field {
-            display: inline-block;
-            vertical-align: top;
-            width: 51px;
-            margin-left: 9px;
-            margin-right: 8px;
+            .s-counter__right__wrapper__center {
+                display: inline-block;
+                vertical-align: top;
+                padding: 0 33px;
+            }
+
+            .s-counter__right__wrapper__center__field {
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+            }
+
+        .s-counter__right__wrapper__left {
+            position: absolute;
+            top: 0;
+            left: 0;
         }
 
-        .s-counter__right__plus {
-            display: inline-block;
-            vertical-align: top;
-            width: 28px;
-            height: 27px;
-            line-height: 27px;
-            background: #ababab;
-            text-align: center;
-            color: #fff;
+            .s-counter__right__wrapper__left__minus {
+                width: 28px;
+                height: 27px;
+                line-height: 27px;
+                background: #ababab;
+                text-align: center;
+                color: #fff;
+            }
+
+
+        .s-counter__right__wrapper__right {
+            position: absolute;
+            top: 0;
+            right: 0;
         }
 
-        .s-counter__right__plus__link {
-            display: block;
-        }
+            .s-counter__right__wrapper__right__plus {
+                width: 28px;
+                height: 27px;
+                line-height: 27px;
+                background: #ababab;
+                text-align: center;
+                color: #fff;
+            }
